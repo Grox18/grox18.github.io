@@ -40,8 +40,12 @@
           <label>
             <input type="checkbox" value="remember-me"> Remember me
           </label>
-          <div class="alert alert-danger" role="alert"><center><strong>Oh snap!</strong> Your username and password did not match.</center></div>
-            <button class="glyphicon glyphicon-remove" type="submit"></button>
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <strong>Warning!</strong> Better check yourself, you're not looking too good.
+            </div>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </div>
